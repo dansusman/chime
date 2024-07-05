@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		54C1DCB52C3759DF002471A3 /* chimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1DCB42C3759DF002471A3 /* chimeApp.swift */; };
-		54C1DCB72C3759DF002471A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C1DCB62C3759DF002471A3 /* ContentView.swift */; };
 		54C1DCB92C3759E0002471A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C1DCB82C3759E0002471A3 /* Assets.xcassets */; };
 		54C1DCBC2C3759E0002471A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C1DCBB2C3759E0002471A3 /* Preview Assets.xcassets */; };
+		54C1DCC42C37603A002471A3 /* chime1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54C1DCC32C37603A002471A3 /* chime1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54C1DCB12C3759DF002471A3 /* chime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C1DCB42C3759DF002471A3 /* chimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chimeApp.swift; sourceTree = "<group>"; };
-		54C1DCB62C3759DF002471A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54C1DCB82C3759E0002471A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54C1DCBB2C3759E0002471A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54C1DCBD2C3759E0002471A3 /* chime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chime.entitlements; sourceTree = "<group>"; };
+		54C1DCC32C37603A002471A3 /* chime1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		54C1DCB32C3759DF002471A3 /* chime */ = {
 			isa = PBXGroup;
 			children = (
+				54C1DCC32C37603A002471A3 /* chime1.mp3 */,
 				54C1DCB42C3759DF002471A3 /* chimeApp.swift */,
-				54C1DCB62C3759DF002471A3 /* ContentView.swift */,
 				54C1DCB82C3759E0002471A3 /* Assets.xcassets */,
 				54C1DCBD2C3759E0002471A3 /* chime.entitlements */,
 				54C1DCBA2C3759E0002471A3 /* Preview Content */,
@@ -127,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C1DCC42C37603A002471A3 /* chime1.mp3 in Resources */,
 				54C1DCBC2C3759E0002471A3 /* Preview Assets.xcassets in Resources */,
 				54C1DCB92C3759E0002471A3 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C1DCB72C3759DF002471A3 /* ContentView.swift in Sources */,
 				54C1DCB52C3759DF002471A3 /* chimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -256,6 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -279,6 +281,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +309,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
