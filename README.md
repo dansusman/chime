@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="Stuff/AppIcon-readme.png" width="200" height="200">
+    <img src="stuff/appicon-readme.png" width="200" height="200">
 	<h1>Chime</h1>
 	<p>
 		<b>A chime every hour, on the hour</b>
