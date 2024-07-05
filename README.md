@@ -1,4 +1,13 @@
-# Chime
+<div align="center">
+    <img src="Stuff/AppIcon-readme.png" width="200" height="200">
+	<h1>Chime</h1>
+	<p>
+		<b>A chime every hour, on the hour</b>
+	</p>
+	<br>
+	<br>
+	<br>
+</div>
 
 A simple macOS menu bar app that plays a chime every hour, on the hour.
 
