@@ -13,7 +13,9 @@ import SwiftUI
 struct chimeApp: App {
     var body: some Scene {
         MenuBarExtra("Chime", systemImage: "bell.circle") {
-            EmptyView().onReceive(ChimeUtil.timer) { _ in ChimeUtil.playSound() }
+            EmptyView()
+                .frame(width: 0, height: 0)
+                .onReceive(ChimeUtil.timer) { _ in ChimeUtil.playSound() }
         }
         .menuBarExtraStyle(.window)
     }
